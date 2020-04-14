@@ -13,14 +13,12 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Background="DimGray">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0">
-                    <Button Content="Capture" Width="75" Height="30" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" FontWeight="ExtraBold" FontSize="16" Cursor="Hand" Foreground="CornflowerBlue"  />
-                    <Button Content="Edit" Width="75" Height="30" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" FontWeight="ExtraBold" FontSize="16" Cursor="Hand" Foreground="CornflowerBlue"/>
-                </StackPanel>
-            </Grid>
-
-            
-                <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0">
+                <Button Content="Capture" Width="75" Height="30" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" FontWeight="ExtraBold" FontSize="16" Cursor="Hand" Foreground="CornflowerBlue"  />
+                <Button Content="Edit" Width="75" Height="30" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" FontWeight="ExtraBold" FontSize="16" Cursor="Hand" Foreground="CornflowerBlue"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition Width="430"></ColumnDefinition>
@@ -111,7 +109,7 @@
                     <Image Source="Images/images.jpg" Width="200" Height="200"></Image>
                 </StackPanel>
                 <Grid Grid.Row="2" Background="Gray"></Grid>
-                <StackPanel Margin="0,10,0,0" Grid.Row="2">
+                <StackPanel Margin="0,12,0,0" Grid.Row="2">
                     <Button  Width="50" Height="50" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="CornflowerBlue">
                         <StackPanel>
                             <Image Source="Images/shutter.png" Width="50" Height="50"></Image>
